@@ -13,7 +13,7 @@ for installed servers.
 
 # Installation
 
-Download an unpack the latest [full node installer binary release](https://github.com/Fermat-ORG/iop-full-node-installer/releases) for your operating system.
+Download an unpack the latest [full node installer binary release](https://github.com/Internet-of-People/iop-full-node-installer/releases) for your operating system.
 You should find a single script and a single folder inside. All you need to do is run the script and then follow the instructions on the screen.
 
 Windows users need to execute the script with administrator privileges. 
