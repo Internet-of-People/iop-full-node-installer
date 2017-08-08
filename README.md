@@ -11,7 +11,7 @@ In the current version of the installer, the installation process can not be ful
 for installed servers. 
 
 
-# Installation
+## Installation
 
 Download an unpack the latest [full node installer binary release](https://github.com/Fermat-ORG/iop-full-node-installer/releases) for your operating system.
 You should find a single script and a single folder inside. All you need to do is run the script and then follow the instructions on the screen.
@@ -22,7 +22,7 @@ Linux users need to execute the script using `sudo`. Linux users may execute the
 running the script under `sudo su` as this will produce wrong file access rights in many cases.
 
 
-# Limitations, Known Issues, Troubleshooting
+## Limitations, Known Issues, Troubleshooting
 
 The full node installer does not check that every operation completes successfully or that all user inputs are actually valid. For example when the installer 
 runs the servers for the first time, it does not check whether they start start successfullly and work as expected. Another example is when the full node installer 
@@ -38,3 +38,20 @@ This behavior can be improved in the future, but until then, you can do the foll
  * on Linux, it is safer to run the installation script as non-root with sudo, rather than as root.
 
 If the installation fails, please find the log file in Logs directory that will be created in the `installer` folder. Analyzing the log will help you identify and understand the problem.
+
+## License
+
+Copyright © 2017 Libertaria Corp., Decentralized Society Foundation, IoP Ventures LLC
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+See [COPYING](COPYING) for more
+information or see <http://www.gnu.org/licenses/>.
